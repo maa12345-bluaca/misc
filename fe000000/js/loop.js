@@ -2,7 +2,7 @@ function gameLoop(diff, display, isOnline) {
   // Right now display and isOnline are always the same, but who knows if that'll continue to be true?
   if (typeof diff !== 'number') {
     let now = Date.now();
-    let rawDiff = (now - player.lastUpdate) / 1000;
+    let rawDiff = (now - player.lastUpdate) / 10;
     // Run the game loop multiple times
     if (rawDiff >= 10) {
       // This tick isn't going to happen at all. We're going to simulate time instead.

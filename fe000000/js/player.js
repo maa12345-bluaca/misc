@@ -586,7 +586,7 @@ let initialPlayer = {
     hasSeenPowerWarningMessage: {},
   },
   cheats: {
-    gameSpeed: 10,
+    gameSpeed: 1,
     extraAchievements: 0,
     achievementExtraMultiplier: 1,
     normalGeneratorPower: 1,
